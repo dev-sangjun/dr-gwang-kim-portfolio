@@ -1,0 +1,9 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.anchor {
+  position: relative;
+  top: -80px;
+  display: hidden;
+}
