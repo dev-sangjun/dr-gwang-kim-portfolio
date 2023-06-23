@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <div id="about" className="anchor" />
       <div className="card shadow-xl bg-base-100 overflow-hidden">
-        <div className="flex flex-col gap-4 p-8 md:hidden">
+        <div className="flex flex-col items-center gap-4 p-8 md:hidden">
           <div className="w-3/4 max-w-[16rem] rounded-full overflow-hidden shadow-2xl mx-auto">
             <img src={avatarPhoto} alt="avatar" />
           </div>
@@ -29,6 +29,7 @@ const About = () => {
               Harmony Project and YOLA-Los Angeles Philharmonic.
             </strong>
           </div>
+          <ExternalLinks />
         </div>
         <div className="flex">
           <div className="hidden md:block md:min-w-[28rem]">
