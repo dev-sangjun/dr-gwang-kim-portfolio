@@ -15,7 +15,7 @@ const ExternalLinks = () => {
       <div className="border-l border-l-slate-300" />
       <a
         className="btn btn-ghost text-xl"
-        href="https://www.youtube.com/@kimgwang4531"
+        href="https://www.youtube.com/channel/UCfxK0lXQyxAkyq8GJYiVLFw"
         target="_blank"
         rel="noreferrer"
       >
