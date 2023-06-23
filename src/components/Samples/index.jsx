@@ -2,8 +2,8 @@ const Samples = () => {
   return (
     <div>
       <div id="samples" className="anchor" />
-      <div className="card shadow-xl bg-base-100 overflow-hidden p-8 gap-4 md:gap-8">
-        <h2 className="text-lg md:text-2xl font-bold">Samples</h2>
+      <div className="card items-center shadow-xl bg-base-100 overflow-hidden p-8 gap-4 md:gap-8">
+        <h2 className="text-xl md:text-2xl font-bold">Samples</h2>
         <div className="flex gap-4 overflow-x-auto">
           <iframe
             className="w-3/4 md:w-full rounded-xl"
