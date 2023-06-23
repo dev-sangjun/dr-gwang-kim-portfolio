@@ -1,6 +1,7 @@
 import profilePhoto from "../../assets/profile-photo.png";
 import avatarPhoto from "../../assets/avatar-photo.png";
 import ExternalLinks from "../ExternalLinks";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -30,11 +31,13 @@ const About = () => {
           </div>
         </div>
         <div className="flex">
-          <img
-            className="hidden md:block md:w-[24rem]"
-            src={profilePhoto}
-            alt="profile"
-          />
+          <div className="hidden md:block md:min-w-[28rem]">
+            <img
+              className="h-full object-cover"
+              src={profilePhoto}
+              alt="profile"
+            />
+          </div>
           <div className="hidden md:flex flex-col items-center md:items-start justify-center gap-4 p-4 md:p-8">
             <h2 className="text-xl md:text-2xl font-bold">
               About Dr. Gwang Kim
@@ -60,9 +63,9 @@ const About = () => {
                 University Northridge, WMU Symphony and KAYS Orchestra.
               </strong>
             </p>
-            <button className="ml-auto btn btn-primary normal-case">
+            <Link to="/bio" className="ml-auto btn btn-primary normal-case">
               More about Dr. Kim
-            </button>
+            </Link>
             <div className="flex w-full justify-end">
               <ExternalLinks />
             </div>
